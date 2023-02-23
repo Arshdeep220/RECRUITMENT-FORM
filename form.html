@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styleform.css">
+    </head>
+    <body>
+        <div>
+            <h1 id="heading">Job Application</h1>
+            <p id="paratop">Please fill out the fields below to help us determine if you are a good fit for any of our open positions. Please try to answer
+               as thoroughly and honestly as possible.</p>
+            <form>
+                <fieldset> 
+                <legend>Personal Information</legend>
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="fname" placeholder="First Name">
+                <input type="text" id="fname" name="fname" placeholder="Middle Name">
+                <input type="text" id="fname" name="fname" placeholder="Last Name"><br><br> 
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob"><br><br>
+                <label for="gender">Select Gender</label>
+                <label for="male" class="mmale">Male</label>
+                <input type="radio" id="male" name="gender" style="margin: 0;">&nbsp;
+                <label for="female" style="margin-left: 9px;">Female</label>
+                <input type="radio" id="female" name="gender" style="margin: 0%;">
+                <label for="other" style="margin-left:9px;">Other</label>
+                <input type="radio" id="other" name="gender" style="margin: 0;"><br><br>
+            </fieldset>
+            <fieldset class="infofield">  
+                <legend>Contact Information</legend> 
+            <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="abc@gmail.com"><br><br>
+                <label for="cnumber">Contact Number</label>
+                <input type="number" id="cnumber" name="cnumber" placeholder="+918937492334"><br><br>
+                <label for="address">Current Address</label>
+                <textarea id="address" name="address" rows="3" cols="20"></textarea><br><br>
+                
+            </fieldset>
+              <fieldset class="infofield">
+                  <legend>Other Information</legend>
+               <label for="passyear">Passing Year</label>
+               <select name="passyear" id="passyear">
+               <option value="" disabled selected hidden>Choose One</option>
+               <option value="2022">2022</option>
+               <option value="2023">2023</option>
+               <option value="2024">2024</option>
+               </select><br><br>
+                <label for="jrole">Select Job Role</label>
+                <select name="jrole" id="jrole">
+                    <option value="" disabled selected hidden>Choose One</option>
+                    <option value="SDE" >Software Developer Engineer</option>
+                    <option value="CE">Cloud Engineer</option>
+                    <option value="FSD" >Full Stack Developer</option>
+                </select><br><br>
+                <label for="cities">Choose Location</label>
+                <input  type="text" list="city" placeholder="choose one" name="city" id="cities">
+                <datalist id="city">
+                   <option value="Delhi NCR">
+                   <option value="Gurugram">
+                   <option value="Mumbai">
+                   <option value="Pune">
+                   <option value="Ahemdabad">
+                   <option value="Bangalore">
+                   <option value="Hyderabad">
+                   <option value="Indore">
+                   <option value="Chennai">
+                   <option value="Noida">
+
+                </datalist><br>
+                <br>
+                <label for="resume">Upload Resume</label>
+                <input type="file" id="resume" name="resume"><br><br>
+            </fieldset>
+            
+            <input type="submit" id="submitbutton" value="SUBMIT">
+        
+            </form>
+        </div>
+    </body>
+</html>

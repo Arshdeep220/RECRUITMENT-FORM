@@ -1,0 +1,91 @@
+
+
+#heading
+{
+    color: navy;
+}
+#paratop
+{
+    color: lightslategrey;
+}
+div
+{
+  margin: auto;
+  width: 60%;
+}
+fieldset
+{
+   padding-top: 5%;
+   padding-left: 5%;
+   border: 5px solid navy;
+   background-color: aliceblue;
+   color: #454545;
+}
+legend
+{
+    color: navy;
+    font-size: larger;
+    padding: 5px 10px;
+    margin-left: 200px;
+
+}
+.infofield
+{
+   margin-top: 5%;
+}
+
+#submitbutton
+{
+    width: 93px;
+    height: 35px;
+    font-size: large;
+    margin-top: 5%;
+    margin-left: 40%;
+    border: solid navy;
+    border-radius: 6px;
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="text"]
+{
+    margin-left: 30px;
+}
+#dob
+{
+    margin-left: 14px;
+}
+.mmale
+{
+    margin-left: 9px;
+}
+#email
+{
+    margin-left: 8px;
+}
+#cnumber
+{
+    margin-left: -1px;
+}
+#address
+{
+    vertical-align: top;
+
+}
+#passyear
+{
+    margin-left: 20px;
+}
+#jrole
+{
+    margin-left: 3px;
+}
+#cities
+{
+    margin-left: -4px;
+}
+#resume
+{
+    margin-left: 3px;
+}
